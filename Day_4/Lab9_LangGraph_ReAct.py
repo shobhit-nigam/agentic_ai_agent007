@@ -8,7 +8,7 @@
 #   export OPENAI_API_KEY="your_key"
 #
 # Run:
-#   python Lab9_LangGraph_ReAct_FIXED.py
+#   python Lab9_LangGraph_ReAct.py
 
 from typing import Dict, Tuple
 import re
@@ -42,7 +42,7 @@ def get_weather(city: str) -> str:
         return f"The weather in {city} is {weather_db[c]}."
     return f"No weather found for '{city}'. Assume mild (22°C) and clear for demo."
 
-@tool("calculator", return_direct=False)
+@tool("calculator", return_direct=True)
 def calculator(expression: str) -> str:
     """Safely evaluate a simple math expression using digits and + - * / ( ) . % ."""
     import math, re

@@ -238,7 +238,7 @@ def demo_tool_calling():
 
 def demo_react():
     print("\n=== Demo 2: ReAct Agent ===\n")
-    q = "Calculate: 23*17 + 3.5, then check mini_wiki for 'LangChain' and summarize both in one line."
+    q = "Calculate: 23*17 + 3.5, then check mini_wiki for 'langchain' and summarize both in one line."
     print("User:", q)
     r = react_agent.invoke({"input": q})
     print("Assistant:", r["output"])
