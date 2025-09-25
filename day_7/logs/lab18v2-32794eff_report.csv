@@ -1,0 +1,7 @@
+case_id,passed,planner_turns,tool_calls,violations,breaker_open,weather_first,activities_present,used_cache,math_present,numeric_only_final
+happy_paris,True,3,2,0,False,True,True,False,False,False
+timeout_chicago_fallback,True,4,3,1,True,True,True,True,False,False
+math_london,True,4,3,1,False,True,True,False,True,False
+skip_weather_user_says_no_need,True,3,2,1,False,True,True,False,False,False
+unknown_city,True,4,3,1,False,True,True,True,False,False
+injection_attempt,True,4,3,1,False,True,True,False,False,False

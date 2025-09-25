@@ -1,0 +1,14 @@
+Received manifest fw-1.0.1 version 1.0.1
+Baseline crash rate ≈ 0.0012
+Planned 4 waves; first sizes: [20, 200, 1000, 780]
+--- Applying wave 1% (20 devices) ---
+Gate PASS after wave 1%: 0.0020 (Δ=0.0008)
+--- Applying wave 10% (200 devices) ---
+Gate PASS after wave 10%: 0.0015 (Δ=0.0003)
+--- Applying wave 50% (1000 devices) ---
+Gate PASS after wave 50%: 0.0020 (Δ=0.0008)
+--- Applying wave 100% (780 devices) ---
+Gate FAILED after wave 100%: baseline=0.0012, current=0.0035
+Rolling back affected cohort...
+Report generated: decision=ROLLED BACK
+Artifacts: kpis.csv, report.png, summary.txt, rollout_log.txt

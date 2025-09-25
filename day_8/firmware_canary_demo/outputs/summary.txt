@@ -1,0 +1,5 @@
+Decision: ROLLED BACK
+Baseline crash rate: 0.0012
+Final crash rate: 0.0035
+Total epochs: 45
+Notes: Threshold gate is absolute delta = 0.0020
