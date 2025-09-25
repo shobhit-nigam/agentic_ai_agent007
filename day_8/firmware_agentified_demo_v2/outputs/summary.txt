@@ -1,0 +1,5 @@
+Decision: ROLLOUT COMPLETED
+Baseline crash rate: 0.0023
+Final crash rate: 0.0025
+Total epochs: 45
+Notes: Threshold gate is absolute delta = 0.0020
