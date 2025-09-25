@@ -1,0 +1,11 @@
+epoch,tag,crash_rate,rolled_back
+0,wave_1pct,0.0015,0
+1,wave_1pct,0.0035,0
+2,wave_1pct,0.0025,0
+3,wave_1pct,0.0055,0
+4,wave_1pct,0.003,0
+5,wave_1pct,0.0025,0
+6,wave_1pct,0.0025,0
+7,wave_1pct,0.0035,0
+8,wave_1pct,0.003,0
+9,wave_1pct,0.002,0

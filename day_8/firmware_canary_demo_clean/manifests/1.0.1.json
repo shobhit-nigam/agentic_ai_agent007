@@ -1,0 +1,10 @@
+{
+  "id": "fw-1.0.1",
+  "version": "1.0.1",
+  "sha256": "deadbeefdeadbeefdeadbeefdeadbeef",
+  "target_models": [
+    "SensorX-100",
+    "SensorX-200"
+  ],
+  "notes": "Driver patch for radio stability; minor scheduler tweak"
+}
